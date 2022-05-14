@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    background-color: black;
+}
+.gender{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text{
+    padding-top:10px;
+    }
+    textarea{
+        resize:none;
+    }
+    button{
+       margin-top: 10px;
+       margin-left: 150px;
+    }
+    form{
+        background-color: white;
+        padding: 10px;
+    }
+    .dob{
+        padding-top: 10px;
+    }

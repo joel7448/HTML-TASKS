@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,300;1,100;1,300&family=Water+Brush&display=swap');
+body{
+  
+   padding-top: 100px;
+ 
+   padding-left: 470px;
+   background-image: url("https://img5.goodfon.com/wallpaper/nbig/5/ef/stars-sun-night-night-sky-night-sky-stars-mountains-clouds-n.jpg");
+  object-position :70px;
+   
+
+    
+}
+section{
+   width: 350px;
+   height: 500px;
+   background-image: linear-gradient(to right top, #7d62f1, #8b399a, #6e2154, #3f1825, #0a0909);
+    border-radius: 30px;
+    padding-top: 30px;
+  
+
+}
+.heading{
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding-left: 65px;
+ color: white;
+ font-family: 'Water Brush', cursive;
+ letter-spacing: 5px;
+}
+.firstname{
+   
+  width: 150px;
+  padding-left: 90px;
+       
+}
+.lastname{
+width: 150px;
+
+padding-top: 20px;
+padding-left: 90px;
+
+}
+.textarea{
+    padding-top: 40px;
+    padding-left: 60px;
+    resize: none;
+}
+textarea{
+    resize: none;
+}
+.phonenumber{
+    width:300px;
+    padding-top: 20px;
+    padding-left: 60px;
+    color: white;
+}
+.email{
+    width:300px;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.ownorsalary{
+    color: white;
+    padding-top: 20px;
+    padding-left: 80px;
+    
+}
+
+
+.Submit{
+padding-left: 130px;
+padding-top: 30px;
+
+}
+button{
+    cursor: pointer;
+}
+
+
+

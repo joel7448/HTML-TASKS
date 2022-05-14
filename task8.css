@@ -1,0 +1,15 @@
+table,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+   
+}
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+p{
+    text-align: center;
+}

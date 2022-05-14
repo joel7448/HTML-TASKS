@@ -1,0 +1,18 @@
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+button{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.color{
+    padding-top: 10px;
+}
+.date{
+    padding-top: 15px;
+}
+.textbox{
+    padding-top: 15px;
+}

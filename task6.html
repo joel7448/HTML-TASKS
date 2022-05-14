@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactusform</title>
+    <link rel="stylesheet" href="contactusform.css">
+</head>
+<body>
+    
+    <section>
+        <h1 class="heading">Registration form</h1>
+        <form>
+    <div class="firstname">
+        <input type="text" placeholder="Enter first name" required/>
+    </div>
+    <div class="lastname">
+        <input type="text" placeholder="Enter last name" required/>
+    </div>
+    <div class="email">
+        <input type="email" placeholder="Enter email" required/>
+    </div>
+    <div class="phonenumber">
+       <label>+91</label> <input type="number" placeholder="Enter Phone number" required/>
+    </div>
+    <div class="ownorsalary">
+        <label for="salary">Salaried</label>
+        <input type="radio" id="salary" name="category" required/>
+        <label for="self">Own bussiness</label>
+        <input type="radio" id="self" name="category" required/>
+    </div>
+    <div class="textarea">
+        <textarea placeholder="Tell us what you require" cols="30" rows="5" required></textarea>
+    </div>
+      
+    <div class="Submit">
+        <button>Contact us</button>    
+    </div>
+        </form>
+</section>
+</body>
+</html>

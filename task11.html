@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+        <input type="text" placeholder="Enter name" required/>
+        <input type="number" placeholder="enter your age" min=18 required/>
+        <div class="gender">
+            <input type="radio" name="gender">
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Others</label>
+        </div>
+        <input type="password" placeholder="enter password"/>
+        <div>
+            <h4>Hobbies</h4>
+            <input type="checkbox" id="1"/>
+            <label for="1">Gardening</label>
+            <input type="checkbox" id="2"/>
+           <label for="2">painting</label>
+            <input type="checkbox" id="3"/>
+            <label for="3">Gym</label>
+            <div class="text">
+            <textarea placeholder="enter comments" cols="45" rows="3"></textarea></div>
+            <div>
+            <select name="City" >
+                <option value="CH">Chennai</option>
+                <option value="CBE">Coimbatore</option>
+                <option value="MAD">Madurai</option>
+                <option value="TRI">Trichy</option>
+            </select>
+            <div>
+            <label>Favourite color</label>
+            <input type="color">
+        </div>
+        <div class="dob">
+            <label>D.O.B</label>
+            <input type="date" >
+        </div>
+        </div>
+<button type="submit">Submit</button>
+</fieldset>
+   
+    </form>
+    
+</body>
+</html>

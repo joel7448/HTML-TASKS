@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,300;1,100;1,300&family=Water+Brush&display=swap');
+body{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    padding: 250px;
+
+}
+section{
+    width:550px;
+    height: 350px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+    
+    
+}
+.heading{
+    background-color: red;
+    display: flex;
+  
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+    
+    padding-left: 100px;
+        color: white;
+    border:15px;
+   
+}
+.name{
+    padding-left:40px;
+    padding-top: 20px;
+
+}
+.address{
+    padding-top: 5px;
+    padding-left: 40px;
+       }
+    textarea{
+        resize: none;
+    }
+    .c{
+         padding-left: 40px;
+    }
+    .city{
+        width:90px;
+    }
+    .state{
+        margin-left: 20px;
+        width:90px;
+    }
+    .Zip{
+        margin-left: 20px;
+        width:90px;
+    }
+    .subs{
+        padding-left: 40px;
+        padding-top: 10px;
+        font-weight:bolder;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.computer{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+   padding-left: 40px;
+   
+}
+  h4{
+      padding-left: 40px;
+      font-family: 'Roboto', sans-serif;
+  }  
+.border{
+    border:5px solid black;
+    height: 390px;
+
+}
+
+
